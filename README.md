@@ -1,6 +1,6 @@
 # self-custody trade offs
 
-This standard operating procedure will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your bearer asset. 
+This standard operating procedure will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your [bearer asset.](https://amber.app/education/what-are-bearer-instruments/) 
 
 This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to not have counterparty risk (external trust and dependency). We will not tell you what to do, that is not our intent, it is to try and work with market participants to clearly state the tradeoffs associated with different methods and tools. 
 
@@ -10,22 +10,22 @@ Satoshi said: _“A purely __peer-to-peer__ version of __electronic cash__ would
 
 As Satoshi mentions above, Bitcoin is to be sent directly, without having to trust a financial institution. Bitcoin’s value proposition as a censorship-resistant (decentralized network) and finite (scarce) bearer (no counterparty risk) asset is only valuable if you self-custody. 
 
-If you are leaving coins on an exchange, or can’t withdraw your Bitcoin because you have exposure to it via an ETF, or some derivative thereof, you are trusting that person or organization to not be rehypothecating funds (giving out more IOU’s than they have in reserves). By taking ownership of your Bitcoin, using the Bitcoin network, you are verifying that you own and control those funds.
+If you are __leaving coins on an exchange__, or can’t withdraw your Bitcoin because you __have exposure to it via an ETF, or some derivative thereof, you are trusting that person or organization to not be rehypothecating__ funds (giving out more IOU’s than they have in reserves). __By taking ownership__ of your Bitcoin, using the Bitcoin network, __you are verifying that you own and control those funds.__
 
 Now that we have emphasized the importance of self custody, the next question is usually ‘what is the best setup?’
 
 Your solution will be unique to your subjective valuation of Bitcoin and threat model for securing it. For example, if you have 0.002 Bitcoin, versus you having 20 Bitcoins, you are going to spend different amounts of time, effort and money into understanding and securing your funds. We will take the presumption here that you value your bitcoin significantly, as you should, given that at some point in the future, that will likely be a lot more valuable than it is today. 
 
-There are plenty of guides for how to quickly and simply generate a wallet that should be sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
+There are plenty of guides for how to quickly and simply generate a wallet that __should be__ sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
 
 There are three components, generating a seed, storing it and using it. Here are our recommendations for each, we hope you enjoy this content and provide valuable feedback, so we can always improve of knowledge, resource base, and ultimately value to our clients and the Bitcoin ecosystem. 
 
 
 Seed: Generation
 
-What is a seed? 
+### **What is a seed?** 
 
-It is a (BIP39) standardized list of English words, which makes the binary code human-readable, which makes it easier for people to generate and store all the necessary secret information to recover and use your Bitcoin.
+It is a ([BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)) standardized list of English words, which makes the binary code human-readable, which makes it easier for people to generate and store all the necessary secret information to recover and use your Bitcoin.
 
 To generate your seed, there are a few options. Remember, all options have trade-offs between the conveniences provided and verifying security. 
 
