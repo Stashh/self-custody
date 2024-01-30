@@ -6,7 +6,7 @@ This guide aims to help people take ownership of their bitcoin, which is the who
 
 Over the years, there have been many examples of why this is important, like the hacks and insolvencies from Mt Gox, FTX, Celsius, BlockFi etc. This resulted in many people losing a lot of funds.
 
-Satoshi said: “A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.”
+Satoshi said: _“A purely __peer-to-peer__ version of __electronic cash__ would allow online payments to be __sent directly__ from one party to another __without going through a financial institution.__”_
 
 As Satoshi mentions above, Bitcoin is to be sent directly, without having to trust a financial institution. Bitcoin’s value proposition as a censorship-resistant (decentralized network) and finite (scarce) bearer (no counterparty risk) asset is only valuable if you self-custody. 
 
