@@ -2,7 +2,7 @@
 
 This standard operating procedure will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your bearer asset. 
 
-This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to not have counterparty risk (external trust and dependency). 
+This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to not have counterparty risk (external trust and dependency). We will not tell you what to do, that is not our intent, it is to try and work with market participants to clearly state the tradeoffs associated with different methods and tools. 
 
 Over the years, there have been many examples of why this is important, like the hacks and insolvencies from Mt Gox, FTX, Celsius, BlockFi etc. This resulted in many people losing a lot of funds.
 
