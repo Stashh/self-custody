@@ -128,17 +128,17 @@ Now that we have created our seed words + passphrase and have backed them up, we
 
 ## **Seed: In Use**
 
-Choosing A Hardware Wallet:
+## ***Choosing A Hardware Wallet:***
 
 The point of a hardware wallet or signing device is to create a barrier between your devices (private and public keys) and the internet. A hardware wallet provide digital storage of private keys and also create digital signature to use those keys, signing devices, alternatively do no persistently store key material after a usage session, and are just used for generating digital signatures.
 
 Every wallet has its own set of tradeoffs. At AmberApp, we believe in the Bitcoin mantras “Don’t Trust, Verify” and also “Not Your Keys, Not Your Coins”. This is why we meet users at their map of the world and help them along their hero’s journey to realize their sovereignty. 
 
-There are a few major trade-offs to consider, one is the secure element on plug and play devices. There is a difference between plugging into a computer (Trezor, Bitbox etc) and air gapped (Seed Signer, Passport, Coldcard), you can hear some of the nuances about being air gapped and the issues with USB HWWs discussed here.
+There are a few major trade-offs to consider, one is the secure element on plug and play devices. There is a difference between plugging into a computer ([Trezor](https://trezor.io/), [Bitbox](https://bitbox.shop/en/products/bitbox02-bitcoin-only-4/) etc) and air gapped ([Seed Signer](https://seedsigner.com/), [Passport](https://foundationdevices.com/passport/), [Coldcard](https://coldcard.com/), [Jade](https://blockstream.com/jade/)), you can hear some of the nuances about being air gapped and the issues with USB HWWs discussed [here](https://twitter.com/nvk/status/1561068212489428993).
 
 There are multiple benefits of having a hardware wallet with a secure element, as it keeps the maintaining key in its enclave and enables the device to potentially warn the user if a recent firmware update is malicious or not. Trade-offs everywhere, with everything.
 
-Secure Element
+#### **Secure Element**
 
 Pro’s: 
 - Keeps maintaining key in device and can warn users if there is a malicious update.
@@ -149,7 +149,7 @@ Con’s:
 - You need to verify that you’ve obtained an authentic device from the manufacturer anyway
 - Secure Elements are closed source and can not be verified
 
-Note: Trezor is trying to create their own secure element chip that is open source.
+Note: Trezor is trying to create their own [secure element chip that is open source](https://tropicsquare.com/).
 
 Stateless Device
 
@@ -165,53 +165,47 @@ On top of that there is a difference between air gapped options, using a micro S
 
 Realistically, unless you are an incredibly competent developer, you will have to have some level of trust. This could be trusting the educator / influencer debating the merits of one over the other, but you will still have to trust them and / or the provider if you can’t read and understand code to verify the trade-off’s. It’s about minimizing trust as much as possible for most people, for those who deep dive, it’s learning how to read code and verify. 
 
-Some HWWs, such as Seed Signer are not only FOSS (Free Open Source Software) and reproducible (can build from source code) but you can also order general hardware parts online and build it yourself within 30 minutes. It’s incredibly easy. This mitigates any supply chain attack and reduces trust required as you sourced the parts (from different places) and built it yourself. However, The hardware (Raspberry Pi’s are closed source, and there is no secure element, so you will need to verify your download each time you update the firmware.
+Some HWWs, such as Seed Signer are not only FOSS (Free Open Source Software) and reproducible (can build from source code) but you can also order general hardware parts online and build it yourself within 30 minutes. It’s incredibly easy. This mitigates any supply chain attack and reduces trust required as you sourced the parts (from different places) and built it yourself. However, The hardware (Raspberry Pi’s) are closed source, and there is no secure element, so you will need to verify your download each time you update the firmware.
 
-You could get a Jade HWW from Blockstream which comes prebuilt, and you can choose translucent cases. It has a virtual secure element. Blockstream is a reputable company which has been on the right side of many bitcoin battles, such as the block size wars. On top of that, Adam Back is at the helm and is also very reputable. They are also FOSS. 
+You could get a Jade HWW from Blockstream which comes prebuilt, and you can choose translucent cases. It has a [virtual secure element](https://help.blockstream.com/hc/en-us/articles/9639949755673-How-does-Blockstream-Jade-s-oracle-enforced-PIN-protection-work-). Blockstream is a reputable company which has been on the right side of many bitcoin battles, such as the block size wars. On top of that, Adam Back is at the helm and is also very reputable. They are also [FOSS](https://blockstream.com/jade/#:~:text=Blockstream%20Jade%20is%20fully%20open%20source.). 
 
 Passport stems from Cold Cards software, is similar to Seed Signer, in the sense they are FOSS and use QR codes to sign, but rather than being sourced and built by yourself, they come pre-built. They also have a secure element and are a stateful device, meaning they retain private key information within the device.
 
-The last option we feel comfortable recommending is Cold Card, the calculator looking like device that started off as FOSS but moved to OSS (Open Source Software) and it too is a reproducible build. This is still air-gapped but rather than using QR codes to sign transactions (PSBT), they use a microSD card. 
+Cold Card, the calculator looking like device that started off as FOSS but moved to OSS (Open Source Software) and it too has a reproducible build. This is still air-gapped but rather than using QR codes to sign transactions (PSBT), they use a microSD card. 
 
-Regardless of what signing device you choose, you will need to choose based off of the trade-offs you deem acceptable. Unless you are a competent hardware designer, you will not be able to quantify and understand the merit of signing devices like Cold Card’s hardware over general purpose hardware. 
+Regardless of what signing device you choose, you will need to choose based off of the trade-offs you deem acceptable. Unless you are a competent hardware designer, you will not be able to quantify and understand the merit of each tradeoff and will need to defer to subjectively trusted expertise. 
 
-If you’re not a specialist in hardware or software, you will not be able to quantity and understand the merit of a stateless device like Seed Signer versus one that uses a secure element.
+### ***Desktop Wallets:***
 
-Personally, I like the Seed Signer the most, as it mitigates supply chain attacks, I built it myself and know all of the components, physically removed the wifi board (if it’s not a wireless zero Raspberry Pi) and because it is easy to verify a download for updates, and because you can remove the microSD card after the device has booted and is ready to use. 
+[Sparrow Wallet](https://sparrowwallet.com/) is one of the Bitcoin community’s favourite wallets, it is open source and free to use. Sparrow is feature packed and can do anything bitcoiners need. When you are more advanced you can dive into privacy features like mixing (Whirlpool) and UTXO management.
 
-Desktop Wallets:
-
-Sparrow Wallet is one of the Bitcoin community’s favourite wallets, it is open source and free to use. Sparrow is feature packed and can do anything bitcoiners need. When you are more advanced you can dive into privacy features like mixing (Whirlpool) and UTXO management.
-
-Tutorials - Arman, Cole, BTC Sessions.
+Tutorials - [Arman](https://armantheparman.com/sparrow/), [Southern Bitcoiner](https://www.youtube.com/watch?v=7QCKSPIq0Ac), [BTC Sessions](https://www.youtube.com/watch?v=qJ_SpQX_YKw).
 
 It also enables you to create a paynym which allows you to privately receive Bitcoin using a static address. 
 
-Specter Wallet is another good option, it is FOSS and also allows you to have coin control. 
-
-Tutorials - BTC Sessions.
+[Specter Wallet](https://specter.solutions/desktop/index.html) is another good option, it is FOSS and also allows you to have coin control. 
 
 For the pro’s, Electrum is generally preferred as there is a lot of unorthodox tools available, however, if you are competent enough to use this, you don’t need us to explain the benefits or tradeoffs.  
 
-Our recommendation is Sparrow Wallet for your vault, where you don’t intend on spending it for many epochs (four-year cycles), as phones spy, and you don’t want to be using or checking this often. Do it once, do it well, the more you touch it, the more likely you are to lose it and / or give away information unnecessarily.
+Many use desktop wallets for their vaults, where you don’t intend on spending it for many epochs (four-year cycles), as phones spy, and you don’t want to be using or checking this often. Do it once, do it well, the more you touch it, the more likely you are to lose it and / or give away information unnecessarily.
 
-Mobile Wallets:
+### ***Mobile Wallets:***
 
-Checking account - On-Chain:
+#### ***Checking account - On-Chain:***
 
-Green Wallet, Blue Wallet, Nunchuck and Keeper.
+[Green Wallet](https://blockstream.com/green/), [Blue Wallet](https://bluewallet.io/), [Nunchuk](https://nunchuk.io/) and [Keeper](https://bitcoinkeeper.app/).
 
-Spending account - Lightning:
+#### ****Spending account - Lightning:****
 
-AmberApp, Wallet of Satoshi, Zeus
+[AmberApp](https://www.amber.app/), [Wallet of Satoshi](https://www.walletofsatoshi.com/), [Zeus](https://zeusln.com/).
 
-Seed: Recovery
+## **Seed: Recovery**
 
-It is a good idea for you to be familiar with the process of recovering your funds by recovering your wallet using your seed words and passphrase, if you have one. For multi-sig, you will recover using your wallet by scanning two of your xpubs. 
+It is a good idea for you to be familiar with the process of recovering your funds by recovering your wallet using your seed words and passphrase, if you have one. For multi-sig, you will recover using your wallet by [scanning two of your wallet descriptors](https://www.youtube.com/watch?v=sJNWM6luCzA), or all of your xpubs. 
+
+A great way to test this, is to simply download [Green Wallet](https://blockstream.com/green/) and [Blue Wallet](https://bluewallet.io/) on your mobile. Create a new wallet on one of them, write down the seed words, then open the other and select to restore a new wallet, then enter your recovery phrase (seed words). 
 
 DO NOT do this testing for any wallet you wish to use, this test is merely to teach you the importance of your seed words, passphrase, XFP (extended finger print) to identify and xpubs (for multi-sig). 
-
-A great way to test this, is to simply download Green Wallet and Blue Wallet on your mobile. Create a new wallet on one of them, write down the seed words, then open the other and select to restore a new wallet, then enter your recovery phrase (seed words). 
 
 This will help give you peace of mind, that as long as you have these seed words stored somewhere safe, you will always be able to access that wallet.
 
