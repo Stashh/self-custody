@@ -2,9 +2,6 @@
 
 This standard operating procedure will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your bearer asset. 
 
-Ideal process -> generate seed offline with sufficient entropy, import into and use an air-gapped computer / HWW (hardware wallet) to sign with. 
-
-
 Self-Custody Standard Operating Procedure. 
 
 This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to be the bearer and not have counterparty risk (external trust and dependency). 
