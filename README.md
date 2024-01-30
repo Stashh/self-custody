@@ -1,10 +1,8 @@
-# self-custody
+# self-custody trade offs
 
 This standard operating procedure will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your bearer asset. 
 
-Self-Custody Standard Operating Procedure. 
-
-This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to be the bearer and not have counterparty risk (external trust and dependency). 
+This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to not have counterparty risk (external trust and dependency). 
 
 Over the years, there have been many examples of why this is important, like the hacks and insolvencies from Mt Gox, FTX, Celsius, BlockFi etc. This resulted in many people losing a lot of funds.
 
