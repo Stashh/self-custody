@@ -23,9 +23,9 @@ There are three components, generating a seed, storing it and using it. Here are
 
 ## **Seed: Generation**
 <details>
-### ***<summary>
-What is a seed?
-</summary>*** 
+<summary>
+ <h3>What is a seed?</h3>
+</summary> 
  
 It is a ([BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)) standardized list of English words, which makes the binary code human-readable, which makes it easier for people to generate and store all the necessary secret information to recover and use your Bitcoin.
 
