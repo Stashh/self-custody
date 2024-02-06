@@ -116,6 +116,7 @@ Note: If you lose a private key, you're going to need __ALL__ of the public keys
 
 A lot of people use multivendor (multiple various signing devices / hardware wallets) for their multi-signature wallets and then distribute their seeds globally. Given we are generating our seed offline, this is less applicable, as we are not relying on any vendor to create our seed. We merely use them to sign transactions, to minimize any risks, you can remove the microSD card after booting the device for signing devices that can sign PSBT’s (partially signed bitcoin transactions) via QR.
 </details>
+</details>
 
 ## **Seed: At Rest**
 
