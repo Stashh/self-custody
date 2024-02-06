@@ -22,9 +22,11 @@ There are three components, generating a seed, storing it and using it. Here are
 
 
 ## **Seed: Generation**
-
+<details>
+<summary>
 ### ***What is a seed?*** 
-
+</summary>
+ 
 It is a ([BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)) standardized list of English words, which makes the binary code human-readable, which makes it easier for people to generate and store all the necessary secret information to recover and use your Bitcoin.
 
 To generate your seed, there are a few options. Remember, all options have trade-offs between the conveniences provided and verifying security. 
@@ -57,6 +59,7 @@ Here are the tutorials for how to generate a seed with [playing cards](https://w
 If you want to complete a checksum by hand, and really go the extra mile, you can see Arman’s work [here](https://armantheparman.com/dicev2/).
 
 Sufficient entropy is incredibly important, whether this is shuffling cards, mixing your entropia pills or cut up words list, using coin tosses, rolling dice, the more entropy, the more secure your seed is. The idea is that if you add logic to the selection (i.e. picking seed words that you "like" or arranging them in a logical sequence) it becomes more guess-able. Just some nuance, but randomness is essential.
+</details>
 
 ### ***Passphrase:***
 
