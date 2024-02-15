@@ -1,7 +1,4 @@
-# <h1 style={{ 
-  textAlign: 'center', 
-  textShadow: '3px 3px 0.7px rgba(255, 151, 0, 0.7)' 
-}}>Self-custody trade offs</h1>
+# elf-custody trade offs
 
 This standard operating procedure will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your [bearer asset.](https://amber.app/education/what-are-bearer-instruments/) 
 
