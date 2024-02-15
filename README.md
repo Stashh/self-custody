@@ -52,6 +52,33 @@ For this reason, I generally do not recommend self-rolling 12-word seeds. It’s
 
 <details>
  <summary>
+  <h3>Passphrase:</h3>
+ </summary>
+
+After you have successfully done your checksum and created the last word for your seed, then checked it in another device to ensure it is correct, you can then add a passphrase. 
+
+If anyone finds your seed words, or extracts it from your unsafe practices, a passphrase provides an extra level of security.
+
+Warning: This will generate a completely new wallet.  If you forget or lose the password, you lose access to the private key and any funds associated with it, "with great power comes great responsibility."
+
+Your passphrase should be 15 - 30 random characters long, so that it can not easily be brute forced if someone were to find out what your seed words are from unsafe practices. One word, or a name, is like one character, it is not recommended to have 15 - 30 words, use unique characters.
+
+This should be 3 strings of numbers and text, as an example:
+
+__3gjd99dwLH!fj*-y__
+
+Obviously the more characters, the stronger the entropy but also the more room for mistakes. This is a trade-off where you must decide which you are comfortable with. Consider how often you will be using this to move funds.
+</details>
+
+<details> 
+ <sumarry>
+ <h3>
+  Advanced:
+</h3>
+</sumarry>
+
+<details>
+ <summary>
   <h3>
    How to generate your own seed?
   </h3>
@@ -70,26 +97,6 @@ Here are the tutorials for how to generate a seed with [playing cards](https://w
 If you want to complete a checksum by hand, and really go the extra mile, you can see Arman’s work [here](https://armantheparman.com/dicev2/).
 
 Sufficient entropy is incredibly important, whether this is shuffling cards, mixing your entropia pills or cut up words list, using coin tosses, rolling dice, the more entropy, the more secure your seed is. The idea is that if you add logic to the selection (i.e. picking seed words that you "like" or arranging them in a logical sequence) it becomes more guess-able. Just some nuance, but randomness is essential.
-</details>
-
-<details>
- <summary>
-  <h3>Passphrase:</h3>
- </summary>
-
-After you have successfully done your checksum and created the last word for your seed, then checked it in another device to ensure it is correct, you can then add a passphrase. 
-
-If anyone finds your seed words, or extracts it from your unsafe practices, a passphrase provides an extra level of security.
-
-Warning: This will generate a completely new wallet.  If you forget or lose the password, you lose access to the private key and any funds associated with it, "with great power comes great responsibility."
-
-Your passphrase should be 15 - 30 random characters long, so that it can not easily be brute forced if someone were to find out what your seed words are from unsafe practices. One word, or a name, is like one character, it is not recommended to have 15 - 30 words, use unique characters.
-
-This should be 3 strings of numbers and text, as an example:
-
-__3gjd99dwLH!fj*-y__
-
-Obviously the more characters, the stronger the entropy but also the more room for mistakes. This is a trade-off where you must decide which you are comfortable with. Consider how often you will be using this to move funds.
 </details>
 
 <details>
@@ -116,6 +123,7 @@ Again, don’t let “perfection” lead to having too much complexity, many peo
 Note: If you lose a private key, you're going to need __ALL__ of the public keys (typically in the form of a wallet descriptor) to be able to take advantage of the fault tolerance that multisig allows for.
 
 A lot of people use multivendor (multiple various signing devices / hardware wallets) for their multi-signature wallets and then distribute their seeds globally. Given we are generating our seed offline, this is less applicable, as we are not relying on any vendor to create our seed. We merely use them to sign transactions, to minimize any risks, you can remove the microSD card after booting the device for signing devices that can sign PSBT’s (partially signed bitcoin transactions) via QR.
+</details>
 </details>
 </details>
 
