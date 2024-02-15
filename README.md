@@ -1,4 +1,4 @@
-# self-custody trade offs
+# Self-custody trade offs
 
 This standard operating procedure will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your [bearer asset.](https://amber.app/education/what-are-bearer-instruments/) 
 
