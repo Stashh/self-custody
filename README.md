@@ -71,11 +71,11 @@ Obviously the more characters, the stronger the entropy but also the more room f
 </details>
 
 <details> 
- <sumarry>
+ <summary>
  <h3>
   Advanced:
 </h3>
-</sumarry>
+</summary>
 
 <details>
  <summary>
