@@ -18,6 +18,11 @@ Your solution will be unique to your subjective valuation of Bitcoin and threat 
 
 There are plenty of guides for how to quickly and simply generate a wallet that __should be__ sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 | | Beginner | Intermediate || Expert |
 | --- | --- | --- | --- |
 | Max Amount | $10,000 | $100,000 | - |
