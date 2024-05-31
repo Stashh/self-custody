@@ -18,12 +18,13 @@ Your solution will be unique to your subjective valuation of Bitcoin and threat 
 
 There are plenty of guides for how to quickly and simply generate a wallet that __should be__ sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
 
-|    | Beginner  | Intermediate | Expert |
-| ------------- | ------------- |
-| Max Amount  |  $10,000  |  $100,000  |  -  |
-| Wallet Type  |  Single signature   |  Single signature   |  Multi-signature  |
-| Server Type  |  Public Electrum  |  Private Bitcoin Core  |  Private Electrum  |
-| WPrivate To  |  None  |  Passive Listners  |  Active Attackers  |
+|                 | Beginner          | Intermediate      | Expert             |
+|-----------------|-------------------|-------------------|--------------------|
+| Max Amount      | $10,000           | $100,000          | -                  |
+| Wallet Type     | Single signature  | Single signature  | Multi-signature    |
+| Server Type     | Public Electrum   | Private Bitcoin Core | Private Electrum  |
+| Private To      | None              | Passive Listeners | Active Attackers   |
+
 
 There are three components, generating a seed, storing it and using it. Here are our recommendations for each, we hope you enjoy this content and provide valuable feedback, so we can always improve of knowledge, resource base, and ultimately value to our clients and the Bitcoin ecosystem. 
 
