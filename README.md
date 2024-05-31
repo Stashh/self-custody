@@ -18,7 +18,7 @@ Your solution will be unique to your subjective valuation of Bitcoin and threat 
 
 There are plenty of guides for how to quickly and simply generate a wallet that __should be__ sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
 
-There are many great guides, such as [Sparrow's recommendation]([url](https://sparrowwallet.com/docs/best-practices.html)) (image below), and [Arman's work]([url](https://armantheparman.com/bitcoin-storage-get-better/)). It's good to look at a few different options, see the trade off's and make an informed decision. The effort spent on your security will depend upon how you value it, as mentioned above. 
+There are many great guides, such as [Sparrow's recommendation](https://sparrowwallet.com/docs/best-practices.html) (image below), and [Arman's work](https://armantheparman.com/bitcoin-storage-get-better/). It's good to look at a few different options, see the trade-offs and make an informed decision. The effort spent on your security will depend upon how you value it, as mentioned above.
 
 |                 | Beginner          | Intermediate      | Expert             |
 |-----------------|-------------------|-------------------|--------------------|
