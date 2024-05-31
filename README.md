@@ -18,6 +18,8 @@ Your solution will be unique to your subjective valuation of Bitcoin and threat 
 
 There are plenty of guides for how to quickly and simply generate a wallet that __should be__ sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
 
+There are many great guides, such as [Sparrow's recommendation]([url](https://sparrowwallet.com/docs/best-practices.html)) (image below), and [Arman's work]([url](https://armantheparman.com/bitcoin-storage-get-better/)). It's good to look at a few different options, see the trade off's and make an informed decision. The effort spent on your security will depend upon how you value it, as mentioned above. 
+
 |                 | Beginner          | Intermediate      | Expert             |
 |-----------------|-------------------|-------------------|--------------------|
 | Max Amount      | $10,000           | $100,000          | -                  |
@@ -25,6 +27,7 @@ There are plenty of guides for how to quickly and simply generate a wallet that 
 | Server Type     | Public Electrum   | Private Bitcoin Core | Private Electrum  |
 | Private To      | None              | Passive Listeners | Active Attackers   |
 
+We will get to these options above, but first, let's just get started with generating a seed and helping you get those sats off an exchange and into *YOUR* wallet!
 
 There are three components, generating a seed, storing it and using it. Here are our recommendations for each, we hope you enjoy this content and provide valuable feedback, so we can always improve of knowledge, resource base, and ultimately value to our clients and the Bitcoin ecosystem. 
 
