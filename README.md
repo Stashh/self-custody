@@ -18,7 +18,7 @@ If you are __leaving coins on an exchange__, or can’t withdraw your Bitcoin be
 
 Now that we have emphasized the importance of self custody, the next question is usually ‘what is the best setup?’
 
-Your solution will be unique to your subjective valuation of Bitcoin and threat model for securing it. For example, if you have 0.002 Bitcoin, versus you having 20 Bitcoins, you are going to spend different amounts of time, effort and money into understanding and securing your funds. We will take the presumption here that you value your bitcoin significantly, as you should, given that at some point in the future, that will likely be a lot more valuable than it is today. 
+Your solution will be unique to your subjective valuation of Bitcoin and threat model for securing it. For example, if you have 0.002 Bitcoin, versus you having 20 Bitcoins, you are going to spend different amounts of time, effort and money into understanding and securing your funds. We will take the presumption here that you value your bitcoin significantly, as you should, given that at some point in the future, it will likely be a lot more valuable than it is today. 
 
 There are plenty of guides for how to quickly and simply generate a wallet that __should be__ sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
 
