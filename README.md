@@ -33,6 +33,8 @@ There are many great guides, such as [Sparrow's recommendation](https://sparroww
 
 We will get to these options above, but first, let's just get started with generating a seed and helping you get those sats off an exchange and into *YOUR* wallet!
 
+It is worth noting that any software you download, you should verify it's authenticity, the best desktop wallet, Sparrow, helps this process become as easy as drag and drop. [Verify your downloads](https://www.sparrowwallet.com/download/)!
+
 There are three components, generating a seed, storing it and using it. Here are our recommendations for each, we hope you enjoy this content and provide valuable feedback, so we can always improve of knowledge, resource base, and ultimately value to our clients and the Bitcoin ecosystem. 
 
 
