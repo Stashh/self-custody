@@ -35,6 +35,8 @@ We will get to these options above, but first, let's just get started with gener
 
 It is worth noting that any software you download, you should verify it's authenticity, the best desktop wallet, Sparrow, helps this process become as easy as drag and drop. [Verify your downloads](https://www.sparrowwallet.com/download/)!
 
+My ([Kiwi](https://keybase.io/kiwi_)) current thoughts on the ideal solution is at the very bottom, for those interested.
+
 There are three components, generating a seed, storing it and using it. Here are our recommendations for each, we hope you enjoy this content and provide valuable feedback, so we can always improve of knowledge, resource base, and ultimately value to our clients and the Bitcoin ecosystem. 
 
 
