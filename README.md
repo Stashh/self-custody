@@ -287,6 +287,28 @@ DO NOT do this testing for any wallet you wish to use, this test is merely to te
 This will help give you peace of mind, that as long as you have these seed words stored somewhere safe, you will always be able to access that wallet.
 </details>
 
+## **Kiwi: The ideal setup**
+
+<details>
+ <summary>
+  <h3>Multi-vendor Multi-signature</h3>
+</summary>
+
+As you will see in the Seed Generation tab, in the advanced section, setting up a multi-signature wallet, using three different vendors significantly reduces any attack vector from any provider. 
+
+I believe getting a PO Box setup is important, that way when you order your signing devices and back-up tools, if any of that information is leaked, your home address will not be. This reduces the likelihood of anyone showing up to your house. 
+
+As mentioned in the first section, [download Sparrow Wallet](https://www.sparrowwallet.com/download/), read the download page linked and use it to verify any downloads you have for your signing devices. 
+
+Whether you choose multi-signature, or single-signature, I believe generating your own 24 seed word(s) using the Seed-Picker cards, Entropia Pills, or simply cutting up a BIP-39 word list and mixing the words in a bowl, will provide more than sufficient entropy to ensure you create a quality seed. You can see more about these options in Seed Generation, Advanced. 
+
+For multi-sig, I think the best mixture of signing devices is Jade by Blockstream, Passport by Foundation, and the [Q by CoinKite](https://store.coinkite.com/promo/AMBERAPP). The backup options, you should use the capsule or metal from Blocstream, as it covers the details listed. You will want to ensure that if anyone turns up to your house, they can't get anything, meaning, you have to travel to friends or family to get that key's information. The problem this creates, is that you could then be dependent on the family memeber or friend. Consider creating multiple backups for the key you will share, and bury it or hide it somewhere that is not in your household. 
+
+For single signature, you obviously only have one key, however you can still split these 24 words into two or more backups. Meaning that even if one is found, it is useless without the other. Again, as per above, consider making it so you would have to travel to get the other key. 
+
+Regardless of which one you choose, you should have a decoy wallet at home, with little funds, to give if you ever find yourself in trouble. For the family or friend that holds that other key, create a code word to let them know if you are in trouble, so they can call authoroties or help you in other ways. 
+</details>
+
 Conclusion:
 
 There are no perfect choices, only trade-offs. Every person will have different strengths regarding what they can verify, and what they will prefer to trust, they will subjectively value different components accordingly. 
