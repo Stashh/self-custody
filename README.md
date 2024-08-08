@@ -198,13 +198,13 @@ There are multiple benefits of having a hardware wallet with a secure element, a
 </summary>
 
 Pro’s: 
-- Keeps maintaining key in device and can warn users if there is a malicious update.
+- Keeps maintaining key in device and can warn users if there is a malicious update
 - Convenience of plug and play
 
 Con’s:
-- One more thing to understand deeply in order to verify it’s trade-offs.
+- One more thing to understand deeply in order to verify it’s trade-offs
 - You need to verify that you’ve obtained an authentic device from the manufacturer anyway
-- Secure Elements are closed source and can not be verified
+- Secure Elements are closed source and can not be verified, however, there are large bounties for anyone to crack them, which none have been claimed
 
 Note: Trezor is trying to create their own [secure element chip that is open source](https://tropicsquare.com/).
 
@@ -228,7 +228,7 @@ You could get a Jade HWW from Blockstream which comes prebuilt, and you can choo
 
 Passport stems from Cold Cards software, is similar to Seed Signer, in the sense they are FOSS and use QR codes to sign, but rather than being sourced and built by yourself, they come pre-built. They also have a secure element and are a stateful device, meaning they retain private key information within the device.
 
-Cold Card, the calculator looking like device that started off as FOSS but moved to OSS (Open Source Software) and it too has a reproducible build. This is still air-gapped but rather than using QR codes to sign transactions (PSBT), they use a microSD card. 
+Cold Card, the calculator looking like device that started off as FOSS but moved to OSS (Open Source Software) and it too has a reproducible build. This is still air-gapped but rather than using QR codes to sign transactions (PSBT), they use a microSD card for the Mk4, the ColdCard Q has the ability to use QR codes (BBQr). 
 
 Regardless of what signing device you choose, you will need to choose based off of the trade-offs you deem acceptable. Unless you are a competent hardware designer, you will not be able to quantify and understand the merit of each tradeoff and will need to defer to subjectively trusted expertise. 
 </details>
@@ -240,11 +240,11 @@ Regardless of what signing device you choose, you will need to choose based off 
   </h3> 
  </summary>
 
-[Sparrow Wallet](https://sparrowwallet.com/) is one of the Bitcoin community’s favourite wallets, it is open source and free to use. Sparrow is feature packed and can do anything bitcoiners need. When you are more advanced you can dive into privacy features like mixing (Whirlpool) and UTXO management.
+[Sparrow Wallet](https://sparrowwallet.com/) is one of the Bitcoin community’s favourite wallets, it is open source and free to use. Sparrow is feature packed and can do anything bitcoiners need. When you are more advanced you can dive into their [privacy features](https://sparrowwallet.com/docs/spending-privately.html) and ensure you have good UTXO management.
+
+Sparrow enables you to [verify your downloads](https://www.sparrowwallet.com/download/) with ease too, with simple drag and drops of the download and signatures, you can ensure you have the right file. 
 
 Tutorials - [Arman](https://armantheparman.com/sparrow/), [Southern Bitcoiner](https://www.youtube.com/watch?v=7QCKSPIq0Ac), [BTC Sessions](https://www.youtube.com/watch?v=qJ_SpQX_YKw).
-
-It also enables you to create a paynym which allows you to privately receive Bitcoin using a static address. 
 
 [Specter Wallet](https://specter.solutions/desktop/index.html) is another good option, it is FOSS and also allows you to have coin control. 
 
