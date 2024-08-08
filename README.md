@@ -14,7 +14,7 @@ Satoshi said: _“A purely __peer-to-peer__ version of __electronic cash__ would
 
 As Satoshi mentions above, Bitcoin is to be sent directly, without having to trust a financial institution. Bitcoin’s value proposition as a censorship-resistant (decentralized network) and finite (scarce) bearer (no counterparty risk) asset is only valuable if you self-custody. 
 
-If you are __leaving coins on an exchange__, or can’t withdraw your Bitcoin because you __have exposure to it via an ETF, or some derivative thereof, you are trusting that person or organization to not be rehypothecating__ funds (giving out more IOU’s than they have in reserves). __By taking ownership__ of your Bitcoin, using the Bitcoin network, __you are verifying that you own and control those funds.__
+If you are __leaving coins on an exchange__, or can’t withdraw your Bitcoin because you __have exposure to it via an ETF, or some derivative thereof, you are trusting that person or organization to not be rehypothecating__ funds (giving out more IOU’s than they have in reserves). __By taking ownership__ of your Bitcoin and using the Bitcoin network, __you are verifying that you own and control those funds.__
 
 Now that we have emphasized the importance of self custody, the next question is usually ‘what is the best setup?’
 
