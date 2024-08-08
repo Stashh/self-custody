@@ -306,7 +306,7 @@ For single signature, you obviously only have one key, however you can still spl
 Regardless of which one you choose, you should have a decoy wallet at home, with little funds, to give if you ever find yourself in trouble. For the family or friend that holds that other key, create a code word to let them know if you are in trouble, so they can call authoroties or help you in other ways. 
 </details>
 
-Conclusion:
+## Conclusion:
 
 There are no perfect choices, only trade-offs. Every person will have different strengths regarding what they can verify, and what they will prefer to trust, they will subjectively value different components accordingly. 
 
