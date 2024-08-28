@@ -108,12 +108,9 @@ __3gjd99dwLH!fj*-y__
 Obviously the more characters, the stronger the entropy but also the more room for mistakes. This is a trade-off where you must decide which you are comfortable with. Consider how often you will be using this to move funds.
 </details>
 
-<details> 
- <summary>
- <h3>
+<h3>
   Advanced:
 </h3>
-</summary>
 
 <details>
  <summary>
