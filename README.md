@@ -26,6 +26,7 @@ As Satoshi mentions above, Bitcoin is to be sent directly, without having to tru
 If you are __leaving coins on an exchange__, or can’t withdraw your Bitcoin because you __have exposure to it via an ETF, or some derivative thereof, you are trusting that person or organization to not be rehypothecating__ funds (giving out more IOU’s than they have in reserves). __By taking ownership__ of your Bitcoin and using the Bitcoin network, __you are verifying that you own and control those funds.__
 </details>
 
+<details>
  <summary>
   <h3>
     What is the best setup?
