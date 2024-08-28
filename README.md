@@ -4,7 +4,7 @@
 [![Forks](https://img.shields.io/github/forks/Stashh/self-custody)](https://github.com/Stashh/self-custody/network/members)
 [![Issues](https://img.shields.io/github/issues/Stashh/self-custody)](https://github.com/Stashh/self-custody/issues)
 
-![Logo](images/Bitcoin Self Custody Trade-offs.png)
+![Logo](images/Bitcoin%20Self%20Custody%20Trade-offs.png)
 
 This guide will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your [bearer asset.](https://amber.app/education/what-are-bearer-instruments/) 
 
