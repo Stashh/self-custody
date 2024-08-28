@@ -306,9 +306,10 @@ DO NOT do this testing for any wallet you wish to use, this test is merely to te
 This will help give you peace of mind, that as long as you have these seed words stored somewhere safe, you will always be able to access that wallet.
 </details>
 
-## **Kiwi: The ideal setup IMO**
-
 <details>
+ <summary>
+## **Kiwi: The ideal setup IMO**
+ </summary>
 
 As you will see in the Seed Generation tab, in the advanced section, setting up a multi-signature wallet, using three different vendors significantly reduces any attack vector from any provider. 
 
