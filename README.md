@@ -54,7 +54,7 @@ It is worth noting that any software you download, you should verify it's authen
 
 My ([Kiwi](https://keybase.io/kiwi_)) current thoughts on the ideal solution is at the very bottom, for those interested.
 
-There are three components, *Generation*</h4>: generating a seed, *At Rest*: storing your seed, and *At Use*: using it. Here are our recommendations for each, we hope you enjoy this content and provide valuable feedback, so we can always improve of knowledge, resource base, and ultimately value to our clients and the Bitcoin ecosystem. 
+There are three components, __*Generation*__</h4>: generating a seed, __*At Rest*__: storing your seed, and __*At Use*__: using it. Here are our recommendations for each, we hope you enjoy this content and provide valuable feedback, so we can always improve of knowledge, resource base, and ultimately value to our clients and the Bitcoin ecosystem. 
 
 
 ## **Seed: Generation**
