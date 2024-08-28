@@ -85,7 +85,7 @@ The minimum security standard of Bitcoin is 128 bits, which is what a 12-word se
 
 For scale, omitting 7 bits of entropy simplifies the space by 2^7 = 128x. In other words, the 121 bits of the first 11 words has only 1/128 = 0.0078 = 0.78% of the strength of a full 128 bits. Put another way, if the 12th word’s entropy bits are not random, your seed has lost 1 - 0.0078 = 0.992 = 99.2% of its strength.
 
-For this reason, I generally do not recommend self-rolling 12-word seeds. It’s only marginally more difficult to roll 23 words rather than 11, and it gives you a whole lot of room to fuck up and still maintain at least 128 truly random bits of entropy.
+For this reason, some bitcoiners generally do not recommend self-rolling 12-word seeds. It’s only marginally more difficult to roll 23 words rather than 11, and it gives you a whole lot of room to have an error and still maintain at least 128 truly random bits of entropy.
 </details>
 
 <details>
