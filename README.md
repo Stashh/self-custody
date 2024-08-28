@@ -52,7 +52,7 @@ Let's just get started with generating a seed and helping you get those sats off
 
 It is worth noting that any software you download, you should verify it's authenticity, the best desktop wallet, Sparrow, helps this process become as easy as drag and drop. [Verify your downloads](https://www.sparrowwallet.com/download/)!
 
-My ([Kiwi](https://keybase.io/kiwi_)) current thoughts on the [ideal solution](#kiwi-the-ideal-setup-imo) is at the very bottom, for those interested.
+My ([Kiwi](https://keybase.io/kiwi_)) current thoughts on the [ideal solution](#kiwis-ideal-setup) is at the very bottom, for those interested.
 
 There are three components, __*Generation*__</h4>: generating a seed, __*At Rest*__: storing your seed, and __*At Use*__: using it. 
 
@@ -308,7 +308,7 @@ This will help give you peace of mind, that as long as you have these seed words
 
 <details>
  <summary>
-  <h2>Kiwi's ideal setup </h2>
+  <h2 id="kiwis-ideal-setup">Kiwi's ideal setup </h2>
  </summary>
 
 As you will see in the Seed Generation tab, in the advanced section, setting up a multi-signature wallet, using three different vendors significantly reduces any attack vector from any provider. 
