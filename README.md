@@ -6,9 +6,16 @@
 
 ![Logo](images/Bitcoin%20Self%20Custody%20Trade-offs.png)
 
-This guide will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your [bearer asset.](https://amber.app/education/what-are-bearer-instruments/) 
+This guide will take the presumption that you already value bitcoin and wish to self custody, to be the bearer of your [bearer asset.](https://amber.app/education/what-are-bearer-instruments/) 
 
-This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to not have counterparty risk (external trust and dependency on a third party). We will not tell you what to do, that is not our intent, it is to try and work with market participants to clearly state the tradeoffs associated with different methods and tools. AmberApp does not provide financial advice, seek independent council, and AmberApp will not be held liable for lost coins or any action taken with this article. Self custody means self responsibility and accountability, don't trust, verify.
+This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to not have counterparty risk (external trust and dependency on a third party). We will not tell you what to do, that is not our intent, it is to try and work with market participants to help people clearly state the tradeoffs associated with different methods and tools. AmberApp does not provide financial advice, seek independent council, and AmberApp will not be held liable for lost coins or any action taken with this article. Self custody means self responsibility and accountability, don't trust, verify.
+
+<details>
+ <summary>
+  <h3>
+    Why is self custody important?
+  </h3>
+ </summary>
 
 Over the years, there have been many examples of why this is important, like the hacks and insolvencies from Mt Gox, FTX, Celsius, BlockFi etc. This resulted in many people losing a lot of funds.
 
@@ -17,6 +24,7 @@ Satoshi said: _“A purely __peer-to-peer__ version of __electronic cash__ would
 As Satoshi mentions above, Bitcoin is to be sent directly, without having to trust a financial institution. Bitcoin’s value proposition as a censorship-resistant (decentralized network) and finite (scarce) bearer (no counterparty risk) asset is only valuable if you self-custody. 
 
 If you are __leaving coins on an exchange__, or can’t withdraw your Bitcoin because you __have exposure to it via an ETF, or some derivative thereof, you are trusting that person or organization to not be rehypothecating__ funds (giving out more IOU’s than they have in reserves). __By taking ownership__ of your Bitcoin and using the Bitcoin network, __you are verifying that you own and control those funds.__
+</details>
 
 Now that we have emphasized the importance of self custody, the next question is usually ‘what is the best setup?’
 
