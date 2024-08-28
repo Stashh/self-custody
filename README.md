@@ -4,6 +4,8 @@
 [![Forks](https://img.shields.io/github/forks/Stashh/self-custody)](https://github.com/Stashh/self-custody/network/members)
 [![Issues](https://img.shields.io/github/issues/Stashh/self-custody)](https://github.com/Stashh/self-custody/issues)
 
+![Logo](images/Bitcoin Self Custody Trade-offs.png)
+
 This guide will take the presumption that you value bitcoin and wish to self custody, to be the bearer of your [bearer asset.](https://amber.app/education/what-are-bearer-instruments/) 
 
 This guide aims to help people take ownership of their bitcoin, which is the whole point of a bearer asset - to not have counterparty risk (external trust and dependency on a third party). We will not tell you what to do, that is not our intent, it is to try and work with market participants to clearly state the tradeoffs associated with different methods and tools. AmberApp does not provide financial advice, seek independent council, and AmberApp will not be held liable for lost coins or any action taken with this article. Self custody means self responsibility and accountability, don't trust, verify.
