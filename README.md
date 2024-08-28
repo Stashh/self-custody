@@ -306,7 +306,7 @@ DO NOT do this testing for any wallet you wish to use, this test is merely to te
 This will help give you peace of mind, that as long as you have these seed words stored somewhere safe, you will always be able to access that wallet.
 </details>
 
-<img src="images/Ben_Kiwi_Laz0rs_ONLY_40Mbps_moshed_07_29_01_10_04_294.gif" alt="kiwi lazers" style="border-radius: 50%; width: 150px; height: 150px;">
+<img src="images/Ben_Kiwi_Laz0rs_ONLY_40Mbps_moshed_07_29_01_10_04_294.gif" alt="kiwi lazers" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
 
 <details>
  <summary>
