@@ -26,8 +26,11 @@ As Satoshi mentions above, Bitcoin is to be sent directly, without having to tru
 If you are __leaving coins on an exchange__, or can’t withdraw your Bitcoin because you __have exposure to it via an ETF, or some derivative thereof, you are trusting that person or organization to not be rehypothecating__ funds (giving out more IOU’s than they have in reserves). __By taking ownership__ of your Bitcoin and using the Bitcoin network, __you are verifying that you own and control those funds.__
 </details>
 
-Now that we have emphasized the importance of self custody, the next question is usually ‘what is the best setup?’
-
+ <summary>
+  <h3>
+    What is the best setup?
+  </h3>
+ </summary>
 Your solution will be unique to your subjective valuation of Bitcoin and threat model for securing it. For example, if you have 0.002 Bitcoin, versus you having 20 Bitcoins, you are going to spend different amounts of time, effort and money into understanding and securing your funds. We will take the presumption here that you value your bitcoin significantly, as you should, given that at some point in the future, it will likely be a lot more valuable than it is today. 
 
 There are plenty of guides for how to quickly and simply generate a wallet that __should be__ sufficient as an initial step, again, we will take the presumption that you just want to do it right the first time, although security is a moving target and can always be improved upon, as new features and technological advancements evolve. “Doing it right” is based on our current understanding, and we recommend that you always do your own research and understand the tradeoffs before making any decision, while this is a guide based on our recommendations, we are not liable for the decisions you make.
@@ -41,7 +44,10 @@ There are many great guides, such as [Sparrow's recommendation](https://sparroww
 | Server Type     | Public Electrum   | Private Bitcoin Core | Private Electrum  |
 | Private To      | None              | Passive Listeners | Active Attackers   |
 
-We will get to these options above, but first, let's just get started with generating a seed and helping you get those sats off an exchange and into *YOUR* wallet!
+We recommend that you read a few guides, and choose what's best for your specific needs. 
+</details>
+
+Let's just get started with generating a seed and helping you get those sats off an exchange and into *YOUR* wallet!
 
 It is worth noting that any software you download, you should verify it's authenticity, the best desktop wallet, Sparrow, helps this process become as easy as drag and drop. [Verify your downloads](https://www.sparrowwallet.com/download/)!
 
