@@ -13,7 +13,7 @@ This guide aims to help people take ownership of their bitcoin, which is the who
 <details>
  <summary>
   <h3>
-    Why is self custody important?
+    Why is self-custody important?
   </h3>
  </summary>
 
@@ -93,7 +93,7 @@ For this reason, some bitcoiners generally do not recommend self-rolling 12-word
   <h3>Passphrase:</h3>
  </summary>
 
-After you have successfully gnereated your seed in a device or have created your seed offline and have done your checksum and created the last word for your seed, then checked it in another device to ensure it is correct, you can then add a passphrase. 
+After you have successfully generated your seed in a device or have created your seed offline and have done your checksum and created the last word for your seed, then checked it in another device to ensure it is correct, you can then add a passphrase. 
 
 If anyone finds your seed words, or extracts it from your unsafe practices, a passphrase provides an extra level of security.
 
